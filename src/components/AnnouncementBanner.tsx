@@ -32,11 +32,11 @@ const AnnouncementBanner = () => {
           <p className="text-xs sm:text-sm font-medium">
             <span className="hidden sm:inline">🚀 </span>
             <span className="text-foreground font-bold">$SNIPE Token</span>
-            <span className="text-muted-foreground"> segera launching di </span>
+            <span className="text-muted-foreground"> launching soon on </span>
             <span className="gradient-text font-bold">Solana</span>
             <span className="text-muted-foreground"> via </span>
             <span className="text-cyan font-bold">PumpFun</span>
-            <span className="text-muted-foreground hidden sm:inline"> — Be Early!</span>
+            <span className="text-muted-foreground hidden sm:inline"> — Don't Miss Out!</span>
           </p>
 
           {/* CTA Button */}
