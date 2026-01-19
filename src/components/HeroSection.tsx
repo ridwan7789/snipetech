@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, Zap, Shield, Bot } from "lucide-react";
 import sniptechLogo from "@/assets/sniptech-logo.jpg";
 import sniptechPhones from "@/assets/sniptech-phones.jpg";
+import BlockchainParticles from "./BlockchainParticles";
 
 const HeroSection = () => {
   return (
@@ -10,14 +11,8 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-purple/10 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(187_100%_50%_/_0.05)_0%,_transparent_70%)]" />
       
-      {/* Animated Grid */}
-      <div className="absolute inset-0 opacity-20">
-        <div className="absolute inset-0" style={{
-          backgroundImage: `linear-gradient(hsl(187 100% 50% / 0.1) 1px, transparent 1px),
-                           linear-gradient(90deg, hsl(187 100% 50% / 0.1) 1px, transparent 1px)`,
-          backgroundSize: '60px 60px'
-        }} />
-      </div>
+      {/* Blockchain Particles Animation */}
+      <BlockchainParticles />
 
       {/* Floating Logo Background */}
       <motion.div
