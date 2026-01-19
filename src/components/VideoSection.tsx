@@ -4,6 +4,7 @@ import { VideoPlayer } from "./VideoModal";
 const videos = [
   { src: "/videos/sniptech-promo-1.mp4", title: "SnipTech Trading Bot Demo" },
   { src: "/videos/sniptech-promo-2.mp4", title: "How SnipTech Works" },
+  { src: "/videos/sniptech-promo-3.mp4", title: "SnipTech Features Overview" },
 ];
 
 const VideoSection = () => {
