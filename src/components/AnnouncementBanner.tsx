@@ -30,7 +30,7 @@ const AnnouncementBanner = () => {
 
           {/* Text */}
           <p className="text-xs sm:text-sm font-medium">
-            <span className="hidden sm:inline">🚀 </span>
+            <span className="hidden sm:inline"> </span>
             <span className="text-foreground font-bold">$SNIPE Token</span>
             <span className="text-muted-foreground"> launching soon on </span>
             <span className="gradient-text font-bold">Solana</span>
@@ -41,7 +41,7 @@ const AnnouncementBanner = () => {
 
           {/* CTA Button */}
           <a
-            href="https://t.me/snipetechportal"
+            href="https://t.me/SnipeTech"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-1 px-3 py-1 rounded-full bg-gradient-to-r from-cyan to-purple text-[10px] sm:text-xs font-bold text-background hover:shadow-lg hover:shadow-cyan/40 transition-all duration-300 whitespace-nowrap"

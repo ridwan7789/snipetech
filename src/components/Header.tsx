@@ -53,7 +53,7 @@ const Header = () => {
 
           {/* CTA Button */}
           <a
-            href="https://t.me/snipetechportal"
+            href="https://t.me/SnipeTechBot"
             target="_blank"
             rel="noopener noreferrer"
             className="hidden md:block btn-primary text-sm"
@@ -91,7 +91,7 @@ const Header = () => {
                   </a>
                 ))}
                 <a
-                  href="https://t.me/snipetechportal"
+                  href="https://t.me/SnipeTechBot"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary text-center text-sm"

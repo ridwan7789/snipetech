@@ -8,7 +8,7 @@ const CTASection = () => {
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-navy via-background to-navy" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(262_83%_58%_/_0.15)_0%,_transparent_60%)]" />
-      
+
       {/* Animated Particles */}
       <div className="absolute inset-0 overflow-hidden">
         {[...Array(20)].map((_, i) => (
@@ -63,14 +63,14 @@ const CTASection = () => {
           </h2>
 
           <p className="text-lg text-muted-foreground mb-10 max-w-2xl mx-auto">
-            Join thousands of traders already using SnipTech to maximize their profits 
+            Join thousands of traders already using SnipTech to maximize their profits
             with ultra-fast, MEV-protected on-chain trading.
           </p>
 
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://t.me/snipetechportal"
+              href="https://t.me/SnipeTechBot"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary flex items-center justify-center gap-2 text-lg"
@@ -79,7 +79,7 @@ const CTASection = () => {
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
-              href="https://t.me/snipetechportal"
+              href="https://t.me/SnipeTechBot"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-secondary flex items-center justify-center gap-2 text-lg"

@@ -10,7 +10,7 @@ const HeroSection = () => {
       {/* Background Effects */}
       <div className="absolute inset-0 bg-gradient-to-b from-purple/10 via-transparent to-transparent" />
       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_hsl(187_100%_50%_/_0.05)_0%,_transparent_70%)]" />
-      
+
       {/* Blockchain Particles Animation */}
       <BlockchainParticles />
 
@@ -54,7 +54,7 @@ const HeroSection = () => {
 
             {/* Subheadline */}
             <p className="text-lg text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
-              Snip, copy, and trade across multiple blockchains with MEV-protected, 
+              Snip, copy, and trade across multiple blockchains with MEV-protected,
               lightning-fast execution and the lowest fees on the market.
             </p>
 
@@ -91,7 +91,7 @@ const HeroSection = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start"
             >
               <a
-                href="https://t.me/snipetechportal"
+                href="https://t.me/SnipeTechBot"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center justify-center gap-2"
@@ -114,7 +114,7 @@ const HeroSection = () => {
           >
             {/* Glow Effect */}
             <div className="absolute inset-0 bg-gradient-to-r from-cyan/20 to-purple/20 rounded-3xl blur-3xl" />
-            
+
             {/* Floating Animation */}
             <motion.div
               animate={{ y: [0, -20, 0] }}
@@ -126,7 +126,7 @@ const HeroSection = () => {
                 alt="SnipTech Trading Platform"
                 className="w-full max-w-lg mx-auto rounded-2xl"
               />
-              
+
               {/* Decorative Elements */}
               <motion.div
                 animate={{ scale: [1, 1.2, 1], opacity: [0.5, 1, 0.5] }}
