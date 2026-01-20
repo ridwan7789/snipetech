@@ -19,9 +19,9 @@ const socialLinks = [
   },
   {
     name: "X/Twitter",
-    href: "https://x.com/SnipeTechOfficial", // TODO: Update with actual X/Twitter handle
+    href: "https://x.com/Snipe_tech", // TODO: Update with actual X/Twitter handle
     icon: Twitter,
-    username: "@SnipeTechOfficial" // TODO: Update with actual X/Twitter handle
+    username: "@Snipe_Tech" // TODO: Update with actual X/Twitter handle
   },
   {
     name: "Gitbook",
