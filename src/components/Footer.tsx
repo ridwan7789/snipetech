@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Send, ExternalLink, Twitter, BookOpen } from "lucide-react";
+import { Send, ExternalLink, Twitter, BookOpen, MessageCircle } from "lucide-react";
 import sniptechLogo from "@/assets/sniptech-logo.jpg";
 
 const footerLinks = [
@@ -28,6 +28,12 @@ const socialLinks = [
     href: "https://docs.snipetech.pro", // TODO: Update with actual Gitbook URL
     icon: BookOpen,
     username: "" // GitBook typically doesn't have usernames
+  },
+  {
+    name: "Medium",
+    href: "https://medium.com/@SnipeTech",
+    icon: MessageCircle,
+    username: "@SnipeTech"
   }
 ];
 
